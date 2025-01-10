@@ -1,7 +1,3 @@
-# RK3588-Products
-- [Order RK3588 SBC](https://we-signage.en.made-in-china.com/product/mFGTfIdHYhUb/China-8K-4K-USB-4-16GB-RAM-16-128GB-ROM-Android-12-Poe-HDMI-Rockchip-Rk3588-Industrial-Tablet-Touch-Screen-Panel-Mini-PC-Arm-PC-Embedded-PC-Sbc-Single-Board-Computer.html)
-- [Order RK3588 mini-pc](https://we-signage.en.made-in-china.com/product/bJRUdDnlIQcr/China-8K-4-16GB-RAM-16-128GB-Emmc-Storage-Rockchip-Rk3588-WiFi-6-Embedded-Debian-Ubuntu-Windows-Linux-Android-12-Industrial-Sbc-Single-Board-Desktop-Computer-Mini-PC.html)
-
 # RK3588 Mainboard (SBC) Documents
 - [01 HYY Rockchip RK3588 Datasheet.pdf](./RK3588_Documents/01_HYY_Rockchip_RK3588_Datasheet.pdf?raw=true)
 - [02 HYY Rockchip RK806 Datasheet.pdf](./RK3588_Documents/02_HYY_Rockchip_RK806_Datasheet.pdf?raw=true)
@@ -115,6 +111,10 @@ RK3588 Mainboard is a series of Rockchip RK3588 based SBC(Single Board Computer)
 
 - [Allwinner A133 7inch HMI](https://github.com/industrialtablet/A133-7inch-HMI)
 ![Allwinner A133-7inch-HMI](./RK3588_Documents/New%20Products/A133%20PCB%20Functions.jpg)
+
+# Order RK3588-Products
+- [Order RK3588 SBC](https://we-signage.en.made-in-china.com/product/mFGTfIdHYhUb/China-8K-4K-USB-4-16GB-RAM-16-128GB-ROM-Android-12-Poe-HDMI-Rockchip-Rk3588-Industrial-Tablet-Touch-Screen-Panel-Mini-PC-Arm-PC-Embedded-PC-Sbc-Single-Board-Computer.html)
+- [Order RK3588 mini-pc](https://we-signage.en.made-in-china.com/product/bJRUdDnlIQcr/China-8K-4-16GB-RAM-16-128GB-Emmc-Storage-Rockchip-Rk3588-WiFi-6-Embedded-Debian-Ubuntu-Windows-Linux-Android-12-Industrial-Sbc-Single-Board-Desktop-Computer-Mini-PC.html)
 
 # Contacts
 
