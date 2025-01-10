@@ -18,7 +18,7 @@ RK3588 Mainboard is a series of Rockchip RK3588 based SBC(Single Board Computer)
 - [RK3588 SBC Firmware Upgrade](RK3588_Update_Firmware.md)
 - [RK3588 Mainboard Ubuntu20.04 Firmware(rk3588_edge_ubuntu20.04_unity_update_lp4x_0704_r1.7z)](https://1drv.ms/u/s!AqvWy-LFD_JhijeK6ZqT1QG4Svf6?e=rDfMKj)
 # RK3588 mini-pc
-- [RK3588 mini-pc](mini-pc.md)
+- [RK3588 mini-pc](rk3588-mini-pc.md)
 - [RK3588 mini-pc Firmware Upgrade](RK3588_Update_Firmware.md)
 - [RK3588 mini-pc Ubuntu20.04 Firmware(rk3588_mini_ubuntu20.04_update_lp4x_0513.7z)](https://1drv.ms/u/s!AqvWy-LFD_JhijgLmUHoKw-JnXcN?e=L0PMag)
 # RK3588 Block Diagram
