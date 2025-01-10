@@ -1,13 +1,3 @@
-# New Products
-- [RK3576 Development Box](https://github.com/industrialtablet/RK3576-Development-Board/tree/main)
-![RK3576 Development Box](https://github.com/industrialtablet/RK3576-Development-Board/blob/main/Documents/Pictures/Promotion%20Pictures/1.Introductin.jpg)
-
-- [Video Server NVR Box](https://github.com/industrialtablet/Video-Server-NVR-Box-with-Networkoptix-Server)
-![Video Server NVR Box](./RK3588_Documents/New%20Products/Integrated%20View%20New.jpg)
-
-- [Allwinner A133 7inch HMI](https://github.com/industrialtablet/A133-7inch-HMI)
-![Allwinner A133-7inch-HMI](./RK3588_Documents/New%20Products/A133%20PCB%20Functions.jpg)
-
 # RK3588-Products
 - [Order RK3588 SBC](https://we-signage.en.made-in-china.com/product/mFGTfIdHYhUb/China-8K-4K-USB-4-16GB-RAM-16-128GB-ROM-Android-12-Poe-HDMI-Rockchip-Rk3588-Industrial-Tablet-Touch-Screen-Panel-Mini-PC-Arm-PC-Embedded-PC-Sbc-Single-Board-Computer.html)
 - [Order RK3588 mini-pc](https://we-signage.en.made-in-china.com/product/bJRUdDnlIQcr/China-8K-4-16GB-RAM-16-128GB-Emmc-Storage-Rockchip-Rk3588-WiFi-6-Embedded-Debian-Ubuntu-Windows-Linux-Android-12-Industrial-Sbc-Single-Board-Desktop-Computer-Mini-PC.html)
@@ -116,7 +106,15 @@ RK3588 Mainboard is a series of Rockchip RK3588 based SBC(Single Board Computer)
 
 -[Build new ubuntu rootfs for RK3566 RK3568 RK3588 products](https://github.com/industrialtablet/Re-build-ubuntu20.04-rootfs-for-RK3566-RK3568-RK3588)
 
+# New Products
+- [RK3576 Development Box](https://github.com/industrialtablet/RK3576-Development-Board/tree/main)
+![RK3576 Development Box](https://github.com/industrialtablet/RK3576-Development-Board/blob/main/Documents/Pictures/Promotion%20Pictures/1.Introductin.jpg)
 
+- [Video Server NVR Box](https://github.com/industrialtablet/Video-Server-NVR-Box-with-Networkoptix-Server)
+![Video Server NVR Box](./RK3588_Documents/New%20Products/Integrated%20View%20New.jpg)
+
+- [Allwinner A133 7inch HMI](https://github.com/industrialtablet/A133-7inch-HMI)
+![Allwinner A133-7inch-HMI](./RK3588_Documents/New%20Products/A133%20PCB%20Functions.jpg)
 
 # Contacts
 
