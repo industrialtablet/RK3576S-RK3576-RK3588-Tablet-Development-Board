@@ -1,6 +1,6 @@
-# RK3566 RK3568 RK3588 Products firmware upgrade
+# RK3566 RK3568 RK3576 RK3588 Products firmware upgrade
 
-This repository is the documentation for RK3566 RK3568 RK3588 products, written by RSD Team of HYY Technology Co.,Ltd.
+This repository is the documentation for RK3566 RK3568 RK3576 RK3588 products, written by RSD Team of HYY Technology Co.,Ltd.
 
 
 
@@ -8,9 +8,9 @@ This repository is the documentation for RK3566 RK3568 RK3588 products, written 
 
 ## 1.1. Preface
 
-The RK3566 RK3568 RK3588 is installed with the Android operating system by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.
+The RK3566 RK3568 RK3576 RK3588 is installed with the Android operating system by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.
 
-RK3566 RK3568 RK3588 has a flexible startup mode. Generally, the RK3566 RK3568 RK3588 SBC will not turn brick unless the hardware is damaged.
+RK3566 RK3568 RK3576 RK3588 has a flexible startup mode. Generally, the RK3566 RK3568 RK3576 RK3588 SBC will not turn brick unless the hardware is damaged.
 
 If the accident appeared in the process of upgrading, bootloader damage, leading to unable to upgrade again, while still can enter mode to Maskrom repair.
 
@@ -20,7 +20,7 @@ If the accident appeared in the process of upgrading, bootloader damage, leading
 
 ## 1.3. Upgrade method
 
-RK3566 RK3568 RK3588 supports firmware update through the following methods:
+RK3566 RK3568 RK3576 RK3588 supports firmware update through the following methods:
 
 * Update firmware using USB cable
   USB cable connect the mainboard with the computer, and  "upgrade tool"  can program the firmware to the mainboard.
@@ -34,7 +34,7 @@ In addition, RK3588 supports downloading system codes from the Type-C data cable
 
 ## 1.5. Boot mode
 
-RK3566 RK3568 RK3588 has three startup modes:
+RK3566 RK3568 RK3576 RK3588 has three startup modes:
 
 * Normal mode
 * Loader mode
@@ -72,10 +72,10 @@ This article describes how to upgrade the firmware file on the host to the flash
 
 ## 2.2. Preparatory Tools
 
-* RK3566 RK3568 RK3588 products
+* RK3566 RK3568 RK3576 RK3588 products
 * Firmware
 * host computer
-* Type-C data cable for RK3588
+* Type-C data cable for RK3576 RK3588
 * USBA to USBA cable for RK3566 and RK3568
 
 There are two types of firmware files:
