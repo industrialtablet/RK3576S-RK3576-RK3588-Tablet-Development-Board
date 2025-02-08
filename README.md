@@ -5,6 +5,7 @@
 # RK3576 Mainboard (SBC)
 RK3576 Mainboard is a series of Rockchip RK3576 based SBC(Single Board Computer) by HYY. It can run Linux <Debian12, Ubuntu22.04>, Android14,  chromium-os and other distributions.
 - [RK3576 Mainboard (SBC) V1.0](RK3576-SBC-V10.md)
+- [RK3576 SBC Firmware Upgrade](RK3576_RK3588_Update_Firmware.md)
 
 # RK3588 Mainboard (SBC) Documents
 - [01 HYY Rockchip RK3588 Datasheet.pdf](./RK3588_Documents/01_HYY_Rockchip_RK3588_Datasheet.pdf?raw=true)
@@ -20,7 +21,7 @@ RK3576 Mainboard is a series of Rockchip RK3576 based SBC(Single Board Computer)
 RK3588 Mainboard is a series of Rockchip RK3588 based SBC(Single Board Computer) by HYY. It can run Linux <Debian11, Ubuntu20.04>, Android12,  chromium-os and other distributions.
 - [RK3588 Mainboard (SBC) V1.0](RK3588-SBC_V10.md)
 - [RK3588 Mainboard (SBC) V1.1](RK3588-SBC_V11.md)
-- [RK3588 SBC Firmware Upgrade](RK3588_Update_Firmware.md)
+- [RK3588 SBC Firmware Upgrade](RK3576_RK3588_Update_Firmware.md)
 - [RK3588 Mainboard Ubuntu20.04 Firmware(rk3588_edge_ubuntu20.04_unity_update_lp4x_0704_r1.7z)](https://1drv.ms/u/s!AqvWy-LFD_JhijeK6ZqT1QG4Svf6?e=rDfMKj)
 # RK3588 mini-pc
 - [RK3588 mini-pc](rk3588-mini-pc.md)
