@@ -30,7 +30,7 @@ RK3566 RK3568 RK3576 RK3588 supports firmware update through the following metho
 * eMMC interface
 * SDMMC interface
 
-In addition, RK3588 supports downloading system codes from the Type-C data cable interface.
+In addition, RK3576 RK3588 supports downloading system codes from the Type-C data cable interface.
 
 ## 1.5. Boot mode
 
