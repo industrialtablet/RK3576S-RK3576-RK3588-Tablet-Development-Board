@@ -93,10 +93,12 @@ There are two types of firmware files:
   \- [AndroidTool_Release_v2.35](./AndroidTool/AndroidTool_Release_v2.35.zip)
 
   \- [AndroidTool_Release_v2.54](./AndroidTool/AndroidTool_Release_v2.54.zip)
+  
+  \- [RKDevTool_Release_v3.19](./AndroidTool/RKDevTool_Release_v3.19_en.zip)
 
 * Driver:**DriverAssitant_vxxx(version number)**
 
-  \- [DriverAssitant_v5.1.1](./AndroidTool/DriverAssitant_v5.1.1.zip)
+  \- [DriverAssitant_v5.13](./AndroidTool/DriverAssitant_v5.13.zip)
 
 ### 2.3.1. Install RK USB drive
 
