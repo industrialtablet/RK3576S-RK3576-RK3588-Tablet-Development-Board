@@ -1,3 +1,7 @@
+#RK3576 Mainboard (SBC) Documents
+- [01 HYY Rockchip RK3576 Datasheet.pdf](./RK3576_Documents/01_HYY_Rockchip_RK3576_Datasheet.pdf?raw=true)
+
+
 # RK3588 Mainboard (SBC) Documents
 - [01 HYY Rockchip RK3588 Datasheet.pdf](./RK3588_Documents/01_HYY_Rockchip_RK3588_Datasheet.pdf?raw=true)
 - [02 HYY Rockchip RK806 Datasheet.pdf](./RK3588_Documents/02_HYY_Rockchip_RK806_Datasheet.pdf?raw=true)
