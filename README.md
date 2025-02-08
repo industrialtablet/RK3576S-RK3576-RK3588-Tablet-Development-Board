@@ -3,7 +3,7 @@
 - [02 HYY Rockchip RK806S Datasheet.pdf](./RK3576_Documents/02_Rockchip RK806S Datasheet.pdf?raw=true)
 
 # RK3576 Mainboard (SBC)
-RK3576 Mainboard is a series of Rockchip RK3588 based SBC(Single Board Computer) by HYY. It can run Linux <Debian12, Ubuntu22.04>, Android14,  chromium-os and other distributions.
+RK3576 Mainboard is a series of Rockchip RK3576 based SBC(Single Board Computer) by HYY. It can run Linux <Debian12, Ubuntu22.04>, Android14,  chromium-os and other distributions.
 
 # RK3588 Mainboard (SBC) Documents
 - [01 HYY Rockchip RK3588 Datasheet.pdf](./RK3588_Documents/01_HYY_Rockchip_RK3588_Datasheet.pdf?raw=true)
