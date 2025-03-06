@@ -4,7 +4,7 @@
 - [03 HYY Rockchip RK3576 Brief Datasheet.pdf](./RK3576_Documents/03_RK3576_Brief_Datasheet_V1.2.pdf)
 - [04 HYY Rockchip RK3576S Datasheet.pdf](./RK3576_Documents/04_HYY_Rockchip RK3576S Datasheet.pdf?raw=true)
 
-- [RK2576 vs RK3576s](./RK3576_Documents/RK3576vsRk3576s.png)
+- [RK3576 vs RK3576s](./RK3576_Documents/RK3576vsRk3576s.png)
 
 # RK3576 Mainboard (RK3576 SBC)
 RK3576 Mainboard is a series of Rockchip RK3576 based SBC(Single Board Computer) by HYY. It can run Linux <Debian12, Ubuntu22.04>, Android14,  chromium-os and other distributions.
