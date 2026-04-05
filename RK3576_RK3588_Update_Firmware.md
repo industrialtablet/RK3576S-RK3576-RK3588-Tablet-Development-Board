@@ -10,9 +10,9 @@ This repository is the documentation for RK3566 RK3568 RK3576 RK3588 products, w
 
 The RK3566 RK3568 RK3576 RK3588 is installed with the Android operating system by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.
 
-RK3566 RK3568 RK3576 RK3588 has a flexible startup mode. Generally, the RK3566 RK3568 RK3576 RK3588 SBC will not turn brick unless the hardware is damaged.
+RK3566 RK3568 RK3576 RK3588 has a flexible startup mode. Generally, the RK3566 RK3568 RK3576 RK3588 SBC will not be bricked unless the hardware is damaged.
 
-If the accident appeared in the process of upgrading, bootloader damage, leading to unable to upgrade again, while still can enter mode to Maskrom repair.
+If something goes wrong during an upgrade and the bootloader is damaged so you can no longer upgrade in the usual way, you can often still enter **MaskRom** mode for recovery.
 
 ## 1.2. How to get the Firmwares and tools
 
@@ -81,7 +81,7 @@ This article describes how to upgrade the firmware file on the host to the flash
 There are two types of firmware files:
 
 * A single unified firmware
-  The unified firmware is a single file packaged and merged by all files such as the partition table, bootloader, uboot, kernel, system and so on. The firmware officially released by our  a unified firmware format. Upgrading the unified firmware will update the data and partition table of all partitions on the motherboard, and erase all data on the motherboard.
+  The unified firmware is a single file packaged and merged by all files such as the partition table, bootloader, uboot, kernel, system and so on. The official firmware we release uses a unified firmware format. Upgrading the unified firmware will update the data and partition table of all partitions on the motherboard, and erase all data on the motherboard.
 * Multiple partition images
   That is, files with independent functions, such as partition table, bootloader, and kernel, are generated during the development phase. The independent partition image can only update the specified partition, while keeping other partition data from being destroyed, it will be very convenient to debug during the development process.
 * Through the unified firmware unpacking / packing tool, the unified firmware can be unpacked into multiple partition images, or multiple partition images can be merged into a unified firmware.
@@ -96,11 +96,11 @@ There are two types of firmware files:
   
   \- [RKDevTool_Release_v3.19](./AndroidTool/RKDevTool_Release_v3.19_en.zip)
 
-* Driver:**DriverAssitant_vxxx(version number)**
+* Driver: **DriverAssistant_vxxx (version number)**
 
-  \- [DriverAssitant_v5.13](./AndroidTool/DriverAssitant_v5.13.zip)
+  \- [DriverAssistant_v5.13](./AndroidTool/DriverAssitant_v5.13.zip)
 
-### 2.3.1. Install RK USB drive
+### 2.3.1. Install RK USB driver
 
 Download Release_DriverAssistant.zip, extract, and then run the DriverInstall.exe inside . In order for all devices to use the updated driver, first select Driver install (驱动安装)，If you need to uninstall the driver, please click Driver Uninstall（驱动卸载）
 
@@ -113,11 +113,11 @@ we can put the device into upgrade mode by hardware as follows:
 * Disconnect the power adapter first.
 * Type-C data cable connects one end to the host and the other end to the development board.
 * Then connect the device Type-C to PC USB,and also connect the DC Power 12V to the device.
-* And press amd hold the recover button nearby the USB3.0 port; And then press one time the reset button nearby the USB2.0 port; and then you can see the message"found a LOADER device"
+* Press and hold the RECOVERY button near the USB 3.0 port; then press the RESET button near the USB 2.0 port once; you should see a message such as “found a LOADER device”.
 
 ![OTG](https://github.com/pengyixing/RK3588-Development-Board/blob/main/imgs/RK3588_recover_button_reset_button_otg-interface.jpg)
 
-put the device into upgrade mode by software as follows.
+Put the device into upgrade mode by software as follows.
 
 Type-C data cable is connected, use the command in the serial debugging terminal or adb shell : reboot loader
 
@@ -127,7 +127,7 @@ The host should prompt for new hardware and configure the driver. Open Device ma
 
 ### 2.3.3. Upgrade the firmware
 
-First you need to download the firmware . AndroidTool defaults to display in Chinese. We need to change it to English. Open  with an text editor (like notepad). The starting lines are:
+First you need to download the firmware. AndroidTool defaults to display in Chinese. To switch to English, open the tool’s configuration file (often `config.ini` in the AndroidTool folder) with a text editor (such as Notepad). The starting lines are:
 
 ```
 #Language Selection: Selected=1(Chinese); Selected=2(English)
@@ -137,7 +137,7 @@ Selected=1
 LangPath=Language\
 ```
 
-Change to, and save. From now on, AndroidTool will display in English.Now, run AndroidTool.exe: (Note: If using Windows 7/8, you’ll need to right click it, select to run it as Administrator)
+Change `Selected=1` to `Selected=2`, save the file, and restart AndroidTool; it will then display in English. Now run AndroidTool.exe: (Note: If using Windows 7/8, you’ll need to right click it, select to run it as Administrator)
 
 ![Found_one_loader_device](https://github.com/pengyixing/RK3588-Development-Board/blob/main/imgs/Found_one_loader_device.png)
 
@@ -150,7 +150,7 @@ The steps to update the unified firmware are as follows:
 3. Press the “upgrade” button to start the upgrade.
 4. If the upgrade fails, you can try to erase the Flash by pressing the EraseFlash button first, and then upgrade.
 
-**Note: if the firmware loadder you wrote is inconsistent with the original one, please execute before upgrading the firmware.**
+**Note:** If the Loader in the firmware package you are flashing does not match the Loader on the device, update or recover the Loader first (follow your vendor’s steps, or use **EraseFlash** when appropriate) before flashing the full firmware.
 
 ![Download_Image](https://github.com/pengyixing/RK3588-Development-Board/blob/main/imgs/Download_Image.jpg)
 
@@ -198,7 +198,7 @@ sudo upgrade_tool ef update.img
 sudo upgrade_tool uf update.img
 ```
 
-**pgrade Partition image**
+**Upgrade partition images**
 
 ```
 sudo upgrade_tool di -b /path/to/boot.img
@@ -206,7 +206,7 @@ sudo upgrade_tool di -r /path/to/recovery.img
 sudo upgrade_tool di -m /path/to/misc.img
 sudo upgrade_tool di -u /path/to/uboot.img
 sudo upgrade_tool di -dtbo /path/to/dtbo.img
-sudo upgrade_tool di -p paramater   #upgrade parameter
+sudo upgrade_tool di -p /path/to/parameter   # upgrade parameter
 sudo upgrade_tool ul bootloader.bin #upgrade bootloader
 ```
 

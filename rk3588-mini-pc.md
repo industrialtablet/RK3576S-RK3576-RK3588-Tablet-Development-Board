@@ -19,7 +19,7 @@ This repository is the documentation for RK3588 products, written by RSD Team of
 # RK3588 Android 12 OS 8K Media Player
 # RK3588 chip octa core DDR4 4G 8GB WIFI6 dual band android 12 ubuntu Debian11 OS 8K 60fps tv box mini pc
 
-RK3588 8K mini pc spcifications
+RK3588 8K mini pc specifications
 <table border="1">
     <tr>
         <td colspan="3">Model NO. ALLBOX-PCRK3588A01PoE </td>
