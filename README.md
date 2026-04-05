@@ -94,5 +94,6 @@ RK3588 Mainboard is a series of Rockchip RK3588 based SBC(Single Board Computer)
 - Website: www.we-signage.com
 - https://we-signage.en.made-in-china.com/
 - E-mail: dennis@we-signage.com
-- MP/Whatsapp/Wechat: + 86 13349909990
+- MP/Wechat: +86 13349909990
+- Whatsapp: +86 17757838687
 - Skype: solled686

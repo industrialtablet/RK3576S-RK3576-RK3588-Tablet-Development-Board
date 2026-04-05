@@ -287,5 +287,6 @@ Build new ubuntu rootfs for HYY H-3588 Tablet
 - Website: www.we-signage.com
 - https://we-signage.en.made-in-china.com/
 - E-mail: dennis@we-signage.com
-- MP/Whatsapp/Wechat: + 86 13349909990
+- MP/Wechat: +86 13349909990
+- Whatsapp: +86 17757838687
 - Skype: solled686
