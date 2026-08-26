@@ -71,14 +71,24 @@ RK3588 Mainboard is a series of Rockchip RK3588 based SBC(Single Board Computer)
 
 # Firmware upgrade tools and driver
 
-- [AndroidTool_Release_v2.35](./AndroidTool/AndroidTool_Release_v2.35.zip)
-- [AndroidTool_Release_v2.54](./AndroidTool/AndroidTool_Release_v2.54.zip)
-- [RKDevTool_Release_v2.84](./AndroidTool/RKDevTool_Release_v2.84.zip)
-- [DriverAssistant_v5.1.1](./AndroidTool/DriverAssitant_v5.1.1.zip)
+All host tools and USB drivers have moved to a dedicated repository:
+**[RockChip Development Tools](https://github.com/industrialtablet/RockChip-Development-Tools)**. The links below download directly from it.
 
+- [AndroidTool_Release_v2.35](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/AndroidTool_Release_v2.35.zip)
+- [AndroidTool_Release_v2.54](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/AndroidTool_Release_v2.54.zip)
+- [RKDevTool_Release_v2.84](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/RKDevTool_Release_v2.84.zip)
+- [RKDevTool_Release_v3.19 (English)](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/RKDevTool_Release_v3.19_en.zip)
+- [RKDevTool_v3.37 (Windows)](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/RKDevTool_v3.37_for_window.zip)
+- [DriverAssistant_v5.1.1](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/DriverAssitant_v5.1.1.zip)
+- [DriverAssistant_v5.14](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/DriverAssitant_v5.14.zip)
+- [SDDiskTool_v1.78](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/SDDiskTool_v1.78.zip)
 
 
 # Get More technical Support
+
+###### RockChip development tools and drivers
+
+\- [AndroidTool / RKDevTool / DriverAssistant / SDDiskTool](https://github.com/industrialtablet/RockChip-Development-Tools)
 
 ###### RK3588 Development Board
 

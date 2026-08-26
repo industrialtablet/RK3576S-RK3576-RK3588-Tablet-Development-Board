@@ -88,17 +88,23 @@ There are two types of firmware files:
 
 ## 2.3. Windows
 
+All Windows host tools and drivers are hosted in the [RockChip Development Tools](https://github.com/industrialtablet/RockChip-Development-Tools) repository.
+
 * Tool: **Androidtool_xxx (version number)**
 
-  \- [AndroidTool_Release_v2.35](./AndroidTool/AndroidTool_Release_v2.35.zip)
+  \- [AndroidTool_Release_v2.35](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/AndroidTool_Release_v2.35.zip)
 
-  \- [AndroidTool_Release_v2.54](./AndroidTool/AndroidTool_Release_v2.54.zip)
-  
-  \- [RKDevTool_Release_v3.19](./AndroidTool/RKDevTool_Release_v3.19_en.zip)
+  \- [AndroidTool_Release_v2.54](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/AndroidTool_Release_v2.54.zip)
+
+  \- [RKDevTool_Release_v3.19](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/RKDevTool_Release_v3.19_en.zip)
+
+  \- [RKDevTool_v3.37](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/RKDevTool_v3.37_for_window.zip)
 
 * Driver: **DriverAssistant_vxxx (version number)**
 
-  \- [DriverAssistant_v5.13](./AndroidTool/DriverAssitant_v5.13.zip)
+  \- [DriverAssistant_v5.13](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/DriverAssitant_v5.13.zip)
+
+  \- [DriverAssistant_v5.14](https://github.com/industrialtablet/RockChip-Development-Tools/raw/main/RockChip%20Development%20Tools/DriverAssitant_v5.14.zip)
 
 ### 2.3.1. Install RK USB driver
 
